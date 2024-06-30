@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE34FF082C315F5300025BBB /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34FF072C315F5300025BBB /* FoodView.swift */; };
+		CE685A962C2828BF004239A6 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE685A952C2828BF004239A6 /* Food.swift */; };
+		CE685A982C282B6E004239A6 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE685A972C282B6E004239A6 /* Restaurant.swift */; };
+		CE685A9A2C283D95004239A6 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE685A992C283D95004239A6 /* RestaurantView.swift */; };
+		CE685A9C2C2848E2004239A6 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE685A9B2C2848E2004239A6 /* Navigation.swift */; };
+		CE685A9E2C2854A5004239A6 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE685A9D2C2854A5004239A6 /* Ingredient.swift */; };
+		CE8733B82C1EEFE9000D735E /* Deliverfly_SurenHakobyanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8733B72C1EEFE9000D735E /* Deliverfly_SurenHakobyanApp.swift */; };
+		CE8733BA2C1EEFE9000D735E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8733B92C1EEFE9000D735E /* ContentView.swift */; };
+		CE8733BC2C1EEFEA000D735E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8733BB2C1EEFEA000D735E /* Assets.xcassets */; };
+		CE8733C02C1EEFEA000D735E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8733BF2C1EEFEA000D735E /* Preview Assets.xcassets */; };
+		CE8733C72C1EF10B000D735E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8733C62C1EF10A000D735E /* SplashView.swift */; };
+		CE8733CB2C1EF948000D735E /* RestoranProview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8733CA2C1EF948000D735E /* RestoranProview.swift */; };
+		CE8733CD2C1F07BF000D735E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8733CC2C1F07BF000D735E /* HomeView.swift */; };
+		CE8733D12C1F17BE000D735E /* FoodPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8733D02C1F17BE000D735E /* FoodPreview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE34FF072C315F5300025BBB /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		CE685A952C2828BF004239A6 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		CE685A972C282B6E004239A6 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		CE685A992C283D95004239A6 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		CE685A9B2C2848E2004239A6 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		CE685A9D2C2854A5004239A6 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CE8733B42C1EEFE9000D735E /* Deliverfly-SurenHakobyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deliverfly-SurenHakobyan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8733B72C1EEFE9000D735E /* Deliverfly_SurenHakobyanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deliverfly_SurenHakobyanApp.swift; sourceTree = "<group>"; };
+		CE8733B92C1EEFE9000D735E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE8733BB2C1EEFEA000D735E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8733BD2C1EEFEA000D735E /* Deliverfly_SurenHakobyan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Deliverfly_SurenHakobyan.entitlements; sourceTree = "<group>"; };
+		CE8733BF2C1EEFEA000D735E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8733C62C1EF10A000D735E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CE8733CA2C1EF948000D735E /* RestoranProview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranProview.swift; sourceTree = "<group>"; };
+		CE8733CC2C1F07BF000D735E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE8733D02C1F17BE000D735E /* FoodPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPreview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8733B12C1EEFE9000D735E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8733AB2C1EEFE9000D735E = {
+			isa = PBXGroup;
+			children = (
+				CE8733B62C1EEFE9000D735E /* Deliverfly-SurenHakobyan */,
+				CE8733B52C1EEFE9000D735E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8733B52C1EEFE9000D735E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8733B42C1EEFE9000D735E /* Deliverfly-SurenHakobyan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8733B62C1EEFE9000D735E /* Deliverfly-SurenHakobyan */ = {
+			isa = PBXGroup;
+			children = (
+				CE8733B72C1EEFE9000D735E /* Deliverfly_SurenHakobyanApp.swift */,
+				CE8733B92C1EEFE9000D735E /* ContentView.swift */,
+				CE8733BB2C1EEFEA000D735E /* Assets.xcassets */,
+				CE8733BD2C1EEFEA000D735E /* Deliverfly_SurenHakobyan.entitlements */,
+				CE8733BF2C1EEFEA000D735E /* Preview Assets.xcassets */,
+				CE8733C62C1EF10A000D735E /* SplashView.swift */,
+				CE8733CA2C1EF948000D735E /* RestoranProview.swift */,
+				CE8733CC2C1F07BF000D735E /* HomeView.swift */,
+				CE8733D02C1F17BE000D735E /* FoodPreview.swift */,
+				CE685A952C2828BF004239A6 /* Food.swift */,
+				CE685A972C282B6E004239A6 /* Restaurant.swift */,
+				CE685A992C283D95004239A6 /* RestaurantView.swift */,
+				CE685A9B2C2848E2004239A6 /* Navigation.swift */,
+				CE685A9D2C2854A5004239A6 /* Ingredient.swift */,
+				CE34FF072C315F5300025BBB /* FoodView.swift */,
+			);
+			path = "Deliverfly-SurenHakobyan";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8733B32C1EEFE9000D735E /* Deliverfly-SurenHakobyan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8733C32C1EEFEA000D735E /* Build configuration list for PBXNativeTarget "Deliverfly-SurenHakobyan" */;
+			buildPhases = (
+				CE8733B02C1EEFE9000D735E /* Sources */,
+				CE8733B12C1EEFE9000D735E /* Frameworks */,
+				CE8733B22C1EEFE9000D735E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deliverfly-SurenHakobyan";
+			productName = "Deliverfly-SurenHakobyan";
+			productReference = CE8733B42C1EEFE9000D735E /* Deliverfly-SurenHakobyan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8733AC2C1EEFE9000D735E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CE8733B32C1EEFE9000D735E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CE8733AF2C1EEFE9000D735E /* Build configuration list for PBXProject "Deliverfly-SurenHakobyan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8733AB2C1EEFE9000D735E;
+			productRefGroup = CE8733B52C1EEFE9000D735E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8733B32C1EEFE9000D735E /* Deliverfly-SurenHakobyan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8733B22C1EEFE9000D735E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8733C02C1EEFEA000D735E /* Preview Assets.xcassets in Resources */,
+				CE8733BC2C1EEFEA000D735E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8733B02C1EEFE9000D735E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE34FF082C315F5300025BBB /* FoodView.swift in Sources */,
+				CE8733D12C1F17BE000D735E /* FoodPreview.swift in Sources */,
+				CE8733BA2C1EEFE9000D735E /* ContentView.swift in Sources */,
+				CE8733B82C1EEFE9000D735E /* Deliverfly_SurenHakobyanApp.swift in Sources */,
+				CE8733CB2C1EF948000D735E /* RestoranProview.swift in Sources */,
+				CE685A982C282B6E004239A6 /* Restaurant.swift in Sources */,
+				CE685A9A2C283D95004239A6 /* RestaurantView.swift in Sources */,
+				CE8733CD2C1F07BF000D735E /* HomeView.swift in Sources */,
+				CE685A9C2C2848E2004239A6 /* Navigation.swift in Sources */,
+				CE685A962C2828BF004239A6 /* Food.swift in Sources */,
+				CE8733C72C1EF10B000D735E /* SplashView.swift in Sources */,
+				CE685A9E2C2854A5004239A6 /* Ingredient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE8733C12C1EEFEA000D735E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8733C22C1EEFEA000D735E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CE8733C42C1EEFEA000D735E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "surenhakobyan.Deliverfly-SurenHakobyan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8733C52C1EEFEA000D735E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "surenhakobyan.Deliverfly-SurenHakobyan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8733AF2C1EEFE9000D735E /* Build configuration list for PBXProject "Deliverfly-SurenHakobyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8733C12C1EEFEA000D735E /* Debug */,
+				CE8733C22C1EEFEA000D735E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8733C32C1EEFEA000D735E /* Build configuration list for PBXNativeTarget "Deliverfly-SurenHakobyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8733C42C1EEFEA000D735E /* Debug */,
+				CE8733C52C1EEFEA000D735E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8733AC2C1EEFE9000D735E /* Project object */;
+}
